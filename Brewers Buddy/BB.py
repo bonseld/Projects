@@ -246,6 +246,14 @@ def information(beer):
 	raw_input("Press Enter to continue...")
 	os.system('cls' if os.name=='nt' else 'clear')
 
+''' ABV Calculator '''
+def ABV_menu(beer_globals):
+	og = raw_input("Please enter the Original Gravity in SG:" + "\n")
+	fg = raw_input("Please enter the Final Gravity in SG:" + "\n")
+	abv = (float(og)-float(fg))*131.25
+	print "The Calculated ABV is " + str(abv) + "%\n"
+	raw_input("Press Enter to continue...")
+	os.system('cls' if os.name=='nt' else 'clear')
 
 ''' Beer Menu '''
 #Starts the beer list, allows selection, returns beer object
@@ -314,5 +322,3 @@ try:
 except KeyboardInterrupt:
 	print '\n' + "A keyboard interrupt was detected. Program shutting down."
 	sys.exit()
-
-
