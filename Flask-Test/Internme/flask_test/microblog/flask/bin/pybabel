@@ -1,4 +1,4 @@
-#!/home/bonseld/Documents/Projects/Internme/flask_test/microblog/flask/bin/python
+#!/home/dylan/Documents/Projects/Flask-Test/Internme/flask_test/microblog/flask/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'Babel==1.3','console_scripts','pybabel'
 __requires__ = 'Babel==1.3'
 import sys

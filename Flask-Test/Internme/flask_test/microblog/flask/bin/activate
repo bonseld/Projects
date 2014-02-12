@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/bonseld/Documents/Projects/Internme/flask_test/microblog/flask"
+VIRTUAL_ENV="/home/dylan/Documents/Projects/Flask-Test/Internme/flask_test/microblog/flask"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

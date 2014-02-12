@@ -1,4 +1,4 @@
-#!/home/bonseld/Documents/Projects/Internme/flask_test/microblog/flask/bin/python
+#!/home/dylan/Documents/Projects/Flask-Test/Internme/flask_test/microblog/flask/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'sqlalchemy-migrate==0.7.2','console_scripts','migrate-repository'
 __requires__ = 'sqlalchemy-migrate==0.7.2'
 import sys
