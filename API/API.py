@@ -30,7 +30,7 @@ conn.execute('''CREATE TABLE SECTION
 
 
 #Constant Train Numbers
-TrainNum = [420, 300, 200]
+TrainNum = [420, 123, 411]
 
 #Train array to hold Train objects
 TrainObj = []
